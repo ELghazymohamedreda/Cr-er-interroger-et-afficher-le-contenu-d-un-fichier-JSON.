@@ -9,7 +9,7 @@
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="styles.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet" />
         <link rel="stylesheet" href="custum.css">
     </head>
     <body>
@@ -35,6 +35,30 @@
                 <p class="text-warning">Films, séries TV et bien plus en illimité.</p>
             </div>
         </header>
+        <div id="article">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              consectetur aliquam assumenda, animi sapiente suscipit vitae
+              voluptatibus magni expedita. Nulla qui soluta debitis quod ipsum nihil
+              odit esse aperiam id!
+            </p>
+            <br /><br />
+            <select id="selectage" onchange="change_slct(this.value)">
+              <option value="0">Select Votre Class</option>
+              <option value="class1">class</option>
+              <option value="class2">class1</option>
+              <option value="class3">class2</option>
+            </select>
+            <table id="tbl">
+              <thead>
+                <tr>
+                  <th>Genre</th>
+                  <th>Age</th>
+                </tr>
+              </thead>
+              <tbody id="donne"></tbody>
+            </table>
+          </div>
         <!-- Content section-->
         <section class="py-5">
             <div class="container my-5">
@@ -72,5 +96,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="scripts.js"></script>
+        <script src="Fichier.js"></script>
     </body>
 </html>
